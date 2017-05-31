@@ -22,9 +22,7 @@ namespace resume_webapp.Controllers
 
                     return "Registration Successful!";
                 }
-            }
-            );
-
+            });
         } 
     }
 }
