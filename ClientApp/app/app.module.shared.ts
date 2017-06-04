@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
-import { AppComponent } from './components/app/app.component'
-import { NavMenuComponent } from './components/navmenu/navmenu.component';
-import { HomeComponent } from './components/home/home.component';
-// import { FetchDataComponent } from './components/fetchdata/fetchdata.component';
-// import { CounterComponent } from './components/counter/counter.component';
-import { AboutAppComponent } from './components/aboutapp/aboutapp.component';
+import { AppComponent } from './component/app/app.component'
+import { NavMenuComponent } from './component/navmenu/navmenu.component';
+import { HomeComponent } from './component/home/home.component';
+// import { FetchDataComponent } from './component/fetchdata/fetchdata.component';
+// import { CounterComponent } from './component/counter/counter.component';
+import { AboutAppComponent } from './component/aboutapp/aboutapp.component';
 
 export const sharedConfig: NgModule = {
     bootstrap: [ AppComponent ],
