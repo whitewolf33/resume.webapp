@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.NodeServices;
 using Microsoft.AspNetCore.SpaServices.Webpack;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -30,6 +31,9 @@ namespace resume_webapp
         {
             // Add framework services.
             services.AddMvc();
+            services.AddNodeServices(new NodeServicesOptions {
+                LaunchWithDebugging = true
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
