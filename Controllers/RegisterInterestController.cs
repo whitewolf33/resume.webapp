@@ -7,6 +7,7 @@ using resume_webapp.Models;
 
 namespace resume_webapp.Controllers
 {
+    [Produces("application/json")]
     [Route("api/[controller]")]
     public class RegisterInterestController : Controller
     {
